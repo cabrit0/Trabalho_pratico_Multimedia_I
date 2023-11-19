@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>AlbiLivro</title>
+</head>
+
+<body>
+
+    <!--  Inicio Navbar  -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div>
+                <img src="images/logo.png" class="navbar-logo img-fluid" alt="img-logo">
+                <a class="navbar-brand" href="index.html">AlbiLivro</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-center">
+                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link" href="pages/autor.html">Autor</a>
+                    <a class="nav-link" href="pages/listaItens.html">Listagem Itens</a>
+                    <a class="nav-link" href="pages/detalhesItens.html">Detalhes Itens</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="pages/contactos.html" role="button"
+                            data-bs-toggle="dropdown">Contactos</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <a class="nav-link" href="pages/projetos.html">Projectos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--  Fim Navbar  -->
+
+    <!-- Inicio conteudo da pagina -->
+
+    <div class="page-content">
+        <!-- Inicio Hero -->
+
+        <section class="container-fluid hero">
+            <div class="row">
+                <div class="col-sm-7 hero-title">
+                    <h2>Desvende Mundos Literários com AlbiLivro</h2>
+                </div>
+                <div class="col-sm-5 hero-text">
+                    <p>Onde histórias ganham vida. Explore nosso mundo de aventuras literárias extraordinárias.
+                        <span>Descubra conosco!</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fim Hero -->
+
+        <!--  Inicio Slider -->
+
+        <section class="top-books-slider">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner border-class">
+                    <div class="carousel-item active">
+                        <div class="row slider-content">
+                            <div class="col-4 book-img">
+                                <img src="images/livro1.jpg" alt="...">
+                            </div>
+                            <div class="col-8 book-content">
+                                <h3>Clean Code: A Handbook of Agile Software Craftsmanship</h3>
+
+                                <div class="row book-author">
+                                    <img src="images/RobertC.Martin.png" class="col-4 img-author" alt="imagem-autor">
+                                    <p class="col-8 author-name">Robert C. Martin</p>
+                                </div>
+                                <p class="topics">Desenvolvimento de software, melhores práticas, design de código
+                                    limpo</p>
+                                <p class="resumo">Guia essencial para escrever código claro, eficiente e sustentável.
+                                    Oferece insights
+                                    profundos sobre a arte da programação, destacando a importância da legibilidade e
+                                    manutenibilidade do código.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row slider-content">
+                            <div class="col-4 book-img">
+                                <img src="images/livro2.jpg" class="d-block w-100" alt="img'author">
+                            </div>
+                            <div class="col-8 book-content">
+                                <h3>The Pragmatic Programmer: Your Journey to Mastery</h3>
+                                <div>
+                                    <div class="row book-author">
+                                        <img src="images/DaveThomas.jpg" class="col-4 img-author" alt="imagem-autor">
+                                        <p class="col-8 author-name">Dave Thomas</p>
+                                    </div>
+                                    <p class="topics">Desenvolvimento de carreira, melhores práticas de programação.</p>
+                                    <p class="resumo">Um clássico atemporal repleto de conselhos valiosos para
+                                        programadores
+                                        em qualquer
+                                        estágio. Explora princípios práticos para impulsionar a maestria na programação
+                                        e no
+                                        desenvolvimento de software.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row slider-content">
+                            <div class="col-4 book-img">
+                                <img src="images/livro3.jpg" class="d-block w-100" alt="img'author">
+                            </div>
+                            <div class="col-8 book-content">
+                                <h3>JavaScript: The Good Parts</h3>
+                                <div>
+                                    <div class="row book-author">
+                                        <img src="images/DouglasCrockford.jpg" class="col-4 img-author"
+                                            alt="imagem-autor">
+                                        <p class="col-8 author-name">Douglas Crockford</p>
+                                    </div>
+                                    <p class="topics">JavaScript, desenvolvimento web, melhores práticas.</p>
+                                    <p class="resumo">Destaca as partes fundamentais e elegantes do JavaScript para
+                                        programação eficaz.
+                                        Crockford compartilha insights valiosos, concentrando-se nas melhores práticas e
+                                        no
+                                        uso consciente da linguagem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row slider-content">
+                            <div class="col-4 book-img">
+                                <img src="images/livro4.jpg" class="d-block w-100" alt="img'author">
+                            </div>
+                            <div class="col-8 book-content">
+                                <h3>Design Patterns: Elements of Reusable Object-Oriented Software</h3>
+                                <div>
+                                    <div class="row book-author">
+                                        <img src="images/ErichGamma.jpg" class="col-4 img-author" alt="imagem-autor">
+                                        <p class="col-8 author-name"> Erich Gamma</p>
+                                    </div>
+                                    <p class="topics">Padrões de design, programação orientada a objetos.</p>
+                                    <p class="resumo">Clássico que introduz padrões fundamentais para projetar software
+                                        flexível e
+                                        reutilizável. Uma referência essencial para arquitetos de software e
+                                        desenvolvedores
+                                        que buscam aprimorar a estrutura de seus sistemas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row slider-content">
+                            <div class="col-4 book-img">
+                                <img src="images/livro5.jpg" class="d-block w-100" alt="img'author">
+                            </div>
+                            <div class="col-8 book-content">
+                                <h3>Sapiens: A Brief History of Humankind</h3>
+                                <div>
+                                    <div class="row book-author">
+                                        <img src="images/YuvalNoahHarari.jpg" class="col-4 img-author"
+                                            alt="imagem-autor">
+                                        <p class="col-8 author-name">Yuval Noah Harari</p>
+                                    </div>
+                                    <p class="topics">História da humanidade, impacto da tecnologia na sociedade.</p>
+                                    <p class="resumo">Contextualiza a evolução da humanidade, relevante para entender o
+                                        papel da tecnologia
+                                        hoje. Harari mergulha em uma narrativa envolvente, abordando desde os primórdios
+                                        até
+                                        o impacto das inovações tecnológicas na sociedade atual.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row slider-content">
+                            <div class="col-4 book-img">
+                                <img src="images/livro6.jpg" class="d-block w-100" alt="img'author">
+                            </div>
+                            <div class="col-8 book-content">
+                                <h3>Food of the Gods</h3>
+                                <div>
+                                    <div class="row book-author">
+                                        <img src="images/TerenceMcKenna.jpg" class="col-4 img-author"
+                                            alt="imagem-autor">
+                                        <p class="col-8 author-name">Terence McKenna</p>
+                                    </div>
+                                    <p class="topics">Psicodélicos, evolução humana, história das plantas e drogas.</p>
+                                    <p class="resumo">Terence McKenna explora os vínculos entre a evolução humana e o
+                                        uso de
+                                        psicodélicos,
+                                        oferecendo uma perspectiva intrigante sobre o papel transformador dessas
+                                        substâncias
+                                        na história e no desenvolvimento da consciência. Um mergulho profundo na relação
+                                        entre humanidade e plantas psicoativas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!--  Fim Slider -->
+
+        <!-- Inicio Autores em Alta -->
+
+        <section class="container-fluid authors-section">
+            <h2 class="text-center mb-4">Top 8 Autores de Tecnologia</h2>
+            <div class="row justify-content-center">
+                <div class="col-1 author-circle" onclick="AuthorInfo('author1')">
+                    <img src="images/BillGates.jpeg" alt="Autor 1" class="img-top-author">
+                </div>
+                <div class="col-1 author-circle" onclick="AuthorInfo('author2')">
+                    <img src="images/ElonMusk.jpeg" alt="Autor 2" class="img-fluid  img-top-author">
+                </div>
+                <div class="col-1 author-circle" onclick="AuthorInfo('author3')">
+                    <img src="images/TimBernersLee.jpg" alt="Autor 3" class="img-fluid  img-top-author">
+                </div>
+                <div class="col-1 author-circle" onclick="AuthorInfo('author4')">
+                    <img src="images/zuckerberg.jpg" alt="Autor 4" class="img-fluid  img-top-author">
+                </div>
+                <div class="col-1 author-circle" onclick="AuthorInfo('author5')">
+                    <img src="images/SatyaNadella.jpg" alt="Autor 5" class="img-fluid  img-top-author">
+                </div>
+                <div class="col-1 author-circle" onclick="AuthorInfo('author6')">
+                    <img src="images/SherylSandberg.webp" alt="Autor 6" class="img-fluid  img-top-author">
+                </div>
+                <div class="col-1 author-circle" onclick="AuthorInfo('author7')">
+                    <img src="images/SundarPichai.png" alt="Autor 7" class="img-fluid  img-top-author">
+                </div>
+
+            </div>
+
+            <div class="row mt-4 top-authors-container">
+                <div class="col-8 offset-lg-2 author-info" id="author-info">
+                    <h3 class="top-author-name">Bill Gates</h3>
+                    <p>Livros mais vendidos</p>
+                    <ul>
+                        <li><span>"A Estrada do Futuro"</span> - Explora o impacto da tecnologia na sociedade</li>
+                        <li><span>"Negócios do Futuro"</span> - Aborda as tendências tecnológicas emergentes</li>
+                        <li><span>"A Empresa na Velocidade do Pensamento"</span> - Sobre como a tecnologia transforma os
+                            negócios</li>
+                    </ul>
+                    <p>Área profissional</p>
+                    <p class="top-author-funcao">Co-fundador da Microsoft</p>
+                </div>
+            </div>
+        </section>
+        <!-- Fim Autores em Alta -->
+
+        <!-- Inicio Depoimentos Users -->
+
+        <div class="row depoimentos-container">
+            <h2>Testemunhos</h2>
+            <div class="col-lg-3 col-md-4 col-sm-6 card-depoimento">
+                <div class="depoiment-img-container">
+                    <img src="images/person1.jpg" alt="img-pessoa">
+                </div>
+                <div class="depoiment-title">
+                    <h3 class="dpoiment-name">
+                        André Oliveira
+                    </h3>
+                    <p>O Programador Pragmático</p>
+                </div>
+                <div class="depoiment-text">
+                    "Thomas oferece pérolas de sabedoria, guiando desenvolvedores em jornadas práticas para maestria.
+                    Uma
+                    bíblia para a excelência na programação."
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 card-depoimento">
+                <div class="depoiment-img-container">
+                    <img src="images/person6.jpeg" alt="img-pessoa">
+                </div>
+                <div class="depoiment-title">
+                    <h3 class="dpoiment-name">
+                        Marina Silva
+                    </h3>
+                    <p>Código Límpido</p>
+                </div>
+                <div class="depoiment-text">
+                    "A clareza de Martin transforma códigos em poesia. Uma leitura essencial para programadores que
+                    buscam elegância na arte da codificação."
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 card-depoimento">
+                <div class="depoiment-img-container">
+                    <img src="images/person2.jpg" alt="img-pessoa">
+                </div>
+                <div class="depoiment-title">
+                    <h3 class="dpoiment-name">
+                        Carlos Mendes
+                    </h3>
+                    <p>Padrões de Design</p>
+                </div>
+                <div class="depoiment-text">
+                    "Gamma apresenta um mapa do tesouro para arquitetos de software. Esses padrões são pilares para
+                    construir sistemas robustos e reutilizáveis."
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 card-depoimento">
+                <div class="depoiment-img-container">
+                    <img src="images/person4.jpg" alt="img-pessoa">
+                </div>
+                <div class="depoiment-title">
+                    <h3 class="dpoiment-name">
+                        João Santos
+                    </h3>
+                    <p>A Comida dos Deuses</p>
+                </div>
+                <div class="depoiment-text">
+                    "McKenna nos guia por uma odisséia etno-botânica, revelando o papel transcendental de psicodélicos
+                    na evolução humana. Uma viagem literária única."
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 card-depoimento">
+                <div class="depoiment-img-container">
+                    <img src="images/person7.jpg" alt="img-pessoa">
+                </div>
+                <div class="depoiment-title">
+                    <h3 class="dpoiment-name">
+                        Rita Pereira
+                    </h3>
+                    <p>Sapiens: Breve História da Humanidade</p>
+                </div>
+                <div class="depoiment-text">
+                    "Harari tece uma narrativa fascinante sobre a jornada humana. Uma exploração envolvente, revelando
+                    nosso passado e influenciando o presente."
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 card-depoimento">
+                <div class="depoiment-img-container">
+                    <img src="images/person3.jpg" alt="img-pessoa">
+                </div>
+                <div class="depoiment-title">
+                    <h3 class="dpoiment-name">
+                        Pedro Rocha
+                    </h3>
+                    <p>O Programador Prático</p>
+                </div>
+                <div class="depoiment-text">
+                    "Hunt e Thomas entregam pérolas de experiência. Cada página é um mentor sábio, guiando
+                    desenvolvedores em uma jornada pragmática para a maestria."
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 card-depoimento">
+                <div class="depoiment-img-container">
+                    <img src="images/person5.jpg" alt="img-pessoa">
+                </div>
+                <div class="depoiment-title">
+                    <h3 class="dpoiment-name">
+                        Diogo Pereira
+                    </h3>
+                    <p>Refatoração: Aperfeiçoando o Design de Código</p>
+                </div>
+                <div class="depoiment-text">
+                    "Fowler redefine a arte de refatorar, tornando o código mais claro e eficiente. Uma leitura
+                    essencial para programadores em busca de aprimoramento contínuo."
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 card-depoimento">
+                <div class="depoiment-img-container">
+                    <img src="images/person8.jpg" alt="img-pessoa">
+                </div>
+                <div class="depoiment-title">
+                    <h3 class="dpoiment-name">
+                        Gustavo Lui
+                    </h3>
+                    <p>O Mágico de Oz (Design Patterns)</p>
+                </div>
+                <div class="depoiment-text">
+                    "Gamma e Helm encapsulam padrões de design em uma jornada mágica. Uma fusão encantadora entre
+                    literatura e arquitetura de software. Uma leitura cativante e instrutiva."
+                </div>
+            </div>
+        </div>
+
+        <!-- Fim Depoimentos Users -->
+
+    </div>
+
+    <!-- Fim conteudo da pagina -->
+
+
+    <!-- Início do Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="inspirational-quote">"Descubra mundos infinitos, leia um livro hoje."</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="estcb">Escola Superior de Tecnologia de Castelo Branco</p>
+                </div>
+                <div class="col-md-4 contactos">
+                    <h5>Contactos</h5>
+                    <address>
+                        <p>Email: info@albilivro.com</p>
+                        <p>Telefone: +351 123 456 789</p>
+                        <p>facebook: facebook.com/albiLivro</p>
+                    </address>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="rights-reserved">&copy; 2023 AlbiLivro. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fim do Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

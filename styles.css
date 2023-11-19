@@ -1,0 +1,392 @@
+body{
+    background-color: #FEFAE0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.navbar{
+    background-image: linear-gradient(to bottom, rgba(96, 108, 56, 1) 5%, rgba(255,0,0,0) 35%, rgba(221, 161, 94, 1) 95%);
+    border-radius: 0 0 10px 10px;
+}
+    .navbar-logo{
+        width: 45px;
+        height: 50px;
+    }
+
+    .navbar a.nav-link{
+        color: #606C38;
+        margin: 0 6px;
+    }
+
+    .navbar a.nav-link.active{
+        color: #283618;
+        font-weight: bolder;
+    }
+
+    .navbar a.nav-link.active::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #283618;
+        animation: animacaoLinksNav 0.7s ease-in-out;
+    }
+
+
+/*Estilos da pagina index*/
+.hero{
+    height: 180px;
+    width: 95%;
+    margin: 24px auto;
+    background-image: url(images/img3.jpg);
+    background-size: cover;
+    background-repeat: none;
+    border-radius: 10px;
+    opacity: .7;
+    color: #FEFAE0;
+    justify-content: center;
+}
+
+    .hero .hero-title h2{
+        width: 80%;
+        padding-top: 40px;
+        opacity: 1;
+        font-size: 2em;
+        font-weight: bolder;
+    }
+
+    .hero .hero-text{
+        padding-top: 40px;
+        font-size: 1.1em;
+    }
+
+
+.top-books-slider{
+    width: 95%;
+    height: 400px;
+    margin: 44px auto;
+    border-radius: 10px;
+}
+
+    .border-class{
+        border-radius: 10px;
+    }
+
+    .slider-content{
+        background-color: #606C38;
+    }
+
+    .book-img{
+        padding: 30px 40px;
+        margin: 0 auto;
+        height: 400px;
+        width: 250px;
+    }
+
+        .book-img img{
+            width: 100%;
+            height: 100%;
+        }
+
+    .book-content{
+        margin: 30px auto;
+        color: #FEFAE0;
+    }
+
+        .book-content h3{
+            font-weight: bold;
+        }
+
+        .book-author{
+            margin: 10px 0;
+        }
+
+            .book-author .author-name{
+                margin: auto 0;
+                font-size: 1.1em;
+            }
+        
+            .book-author .img-author{
+                border-radius: 50%;
+                width: 100px;
+                height: 100%;
+            }
+        
+        .book-content .topics{
+            color: #e6ad6d;
+            font-weight: bold;
+        }
+
+
+.authors-section {
+    background-color: #FEFAE0;
+    padding: 40px 0;
+}
+
+    .authors-section h2 {
+        color: #DDA15E;
+        font-weight: bolder;
+    }
+
+.author-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 4px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.author-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.author-circle:hover {
+    transform: scale(1.2);
+}
+
+.author-info {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #DDA15E;
+    padding: 20px;
+    border-radius: 10px;
+    color: #283618;
+    text-align: center;
+}
+
+    .author-info .top-author-name{
+        font-weight: bold;
+        color: #FEFAE0;
+    }
+
+    .author-info ul{
+        list-style: none;
+    }
+
+        .author-info li span{
+            color: #FEFAE0;
+            font-weight: 600;
+        }
+
+    .author-info .top-author-funcao{
+        color: #FEFAE0;
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+    
+    .depoimentos-container{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    width: 93%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+    .depoimentos-container h2{
+        color: #DDA15E;
+        font-weight: bolder;
+    }
+
+    .depoimentos-container .card-depoimento{
+        color: #FEFAE0;
+        border: 2px solid #DDA15E;
+        background-color: #283618;
+        border-radius: 10px;
+        margin: 5px auto;
+        padding: 5px 10px;
+    }
+
+    .card-depoimento .depoiment-img-container{
+        margin: 0 auto;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .card-depoimento .depoiment-img-container img{
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .depoiment-title p{
+        color: #DDA15E;
+    }
+    
+.footer {
+    background-color: #282e24; 
+    color: #FEFAE0; 
+    padding-top: 30px; 
+    width: 100%;
+    text-align: center;
+}
+    
+.inspirational-quote {
+    font-style: italic;
+    color: #DDA15E;
+    font-size: 16px;
+}
+    
+.rights-reserved,
+.estcb {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+    
+.contactos{
+    color: #DDA15E;
+    font-size: 0.8em;
+}
+    
+.rights-reserved{
+    text-align: center;
+}
+    
+.address a {
+    color: #FEFAE0; 
+}
+    
+    
+@media (max-width: 640px) {
+    .hero .hero-title h2 {
+        width: 100%;
+        padding-top: 20px;
+        font-size: 1.5em; 
+    }
+    .hero .hero-text{
+        padding-top: 5px;
+        font-size: 1em;
+    }
+
+    .book-content{
+        font-size: 0.8em;
+    }
+
+        .book-author .img-author{
+            width: 75px;
+        }
+
+}    
+
+@media (max-width: 768px) {
+    .book-img{
+        display: none;
+    }
+
+    .author-circle {
+        width: 50px;
+        height: 50px;
+        margin: 1px 0;
+    }
+
+    .author-info{
+        height: 360px;
+        font-size: 0.9em;
+    }
+
+        .author-info li{
+            text-align: left;
+        }
+
+        .author-info li span{
+            color: #FEFAE0;
+            font-weight: 400;
+        }
+
+    .rights-reserved,
+    .estcb {
+        font-size: 0.8em;
+        margin: 5px 0;
+    }
+
+    .contactos{
+    font-size: 0.7em;
+}
+}
+
+    
+@keyframes animacaoLinksNav {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+/*Estilos da pagina index*/
+
+
+/*Estilos da pagina autor*/
+
+.sobreMim-container{
+    color: #283618;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 505px;
+}
+
+.sobreMim-header {
+    margin: 15px 0;
+}
+
+.sobreMim-img-container{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+.sobreMim-img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.sobreMim-content{
+    text-align: left;
+}
+
+.quote-jonnhy{
+    display: none;
+}
+
+.sobreMim-table{
+    width: 65%;
+    margin: 20px auto;
+    padding: 8px 10px;
+    background-color: #606C38;
+    color: #DDA15E;
+    font-weight: bold;
+    border: 2px solid #DDA15E;
+    border-radius: 10px;
+}
+
+    .sobreMim-container h2{
+        font-weight: bolder;
+        color: #DDA15E;
+    }
+
+@media (max-width: 768px) {
+    .sobreMim-container{
+        height: auto;
+    }
+
+    .sobreMim-header p{
+        font-size: 0.8em;
+    }
+
+    .sobreMim-table{
+        font-size: 0.8em;
+        width: 100%;
+    }
+
+    .quote-jonnhy{
+        display: block;
+        font-weight: bolder;
+    }
+}
+
+/*Estilos da pagina autor*/
