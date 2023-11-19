@@ -390,3 +390,66 @@ body{
 }
 
 /*Estilos da pagina autor*/
+
+/*Estilos da pagina listarItems*/
+
+.listarItems{
+    width: 90%;
+    margin: 50px auto;
+}
+
+    .listarItems h2{
+        text-align: center;
+        color: #DDA15E;
+    }
+
+    .book-card {
+        max-width: 300px;
+        margin: 20px auto;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #DDA15E;
+    }
+
+    .img-card-container{
+        text-align: center;
+        margin: 0 auto; 
+    }
+    
+    .img-card-container img {
+            max-width: 100%;
+            height: 200px;
+            border-radius: 5px;
+        }
+        
+        .book-info {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .book-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #FEFAE0;
+        }
+
+        .book-author {
+            margin-top: 8px;
+            font-size: 0.9em;
+            color: #606C38;
+        }
+
+        .book-rating {
+            margin-top: 8px;
+            font-size: 0.9em;
+            color: #606C38;
+        }
+
+        .book-description {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #FEFAE0;
+        }
+
+/*Estilos da pagina listarItems*/
