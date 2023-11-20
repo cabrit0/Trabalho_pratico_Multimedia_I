@@ -180,11 +180,11 @@ body{
     .depoimentos-container{
         margin: 0 auto;
         margin-bottom: 20px;
-    width: 93%;
-    text-align: center;
-    border-radius: 10px;
-    padding: 5px;
-}
+        width: 95%;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px;
+    }
 
     .depoimentos-container h2{
         color: #DDA15E;
@@ -196,7 +196,7 @@ body{
         border: 2px solid #DDA15E;
         background-color: #283618;
         border-radius: 10px;
-        margin: 5px auto;
+        margin: 0 auto;
         padding: 5px 10px;
     }
 
@@ -216,12 +216,15 @@ body{
         color: #DDA15E;
     }
     
+/*Footer Inicio*/
+
 .footer {
     background-color: #282e24; 
     color: #FEFAE0; 
     padding-top: 30px; 
     width: 100%;
     text-align: center;
+    margin-top: 100px;
 }
     
 .inspirational-quote {
@@ -248,6 +251,8 @@ body{
 .address a {
     color: #FEFAE0; 
 }
+
+/*Footer Inicio*/
     
     
 @media (max-width: 640px) {
@@ -326,7 +331,7 @@ body{
     text-align: center;
     margin: 0 auto;
     width: 90%;
-    height: 505px;
+    height: 580px;
 }
 
 .sobreMim-header {
@@ -427,29 +432,44 @@ body{
             text-align: center;
             margin-top: 15px;
         }
-
+        
+        
         .book-title {
             font-size: 1.2em;
             font-weight: bold;
             color: #FEFAE0;
         }
-
+        
         .book-author {
             margin-top: 8px;
             font-size: 0.9em;
             color: #606C38;
         }
-
+        
         .book-rating {
             margin-top: 8px;
             font-size: 0.9em;
             color: #606C38;
         }
-
+        
         .book-description {
             margin-top: 15px;
             font-size: 0.9em;
             color: #FEFAE0;
+            margin-bottom: 20px;
+        }
+
+        .book-info a{
+            background-color: #606C38;
+            padding: 4px 6px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #FEFAE0;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .book-info a:hover{
+            transform: scale(1.2);
         }
 
 /*Estilos da pagina listarItems*/
