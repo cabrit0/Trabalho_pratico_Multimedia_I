@@ -409,7 +409,7 @@ body{
     }
 
     .book-card {
-        max-width: 300px;
+        width: 320px;
         margin: 20px auto;
         padding: 15px;
         border-radius: 10px;
@@ -473,6 +473,7 @@ body{
         .book-info a:hover{
             transform: scale(1.2);
         }
+
 
 /*Estilos da pagina listarItems*/
 
