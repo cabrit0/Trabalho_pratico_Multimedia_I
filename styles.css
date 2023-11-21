@@ -32,6 +32,24 @@ body{
         animation: animacaoLinksNav 0.7s ease-in-out;
     }
 
+    .redes-sociais{
+        background-color: #606C38;
+        overflow: hidden;
+        box-shadow: 4px 4px 14px;
+    }
+    
+    .redes-sociais-link{
+        color: #FEFAE0;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .redes-sociais-link:hover{
+        background-color: #FEFAE0;
+        color: #606C38;
+        font-weight: bolder;
+        transform: scale(1.15);
+        box-shadow: 14px 14px 14px;
+    }
 
 /*Estilos da pagina index*/
 .hero{
