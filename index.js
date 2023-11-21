@@ -99,3 +99,6 @@ function AuthorInfo(author) {
     }
 }
 
+/* function localizarLivro(livroId) {
+    window.location.href = `detalhesItens.html?livroId=${livroId}`;
+} */

@@ -462,16 +462,23 @@ body{
 
         .book-info a{
             display: inline-block;
-            background-color: #606C38;
-            padding: 4px 6px;
-            border-radius: 10px;
             text-decoration: none;
+            margin-top: 10px;
+            padding: 2px 8px;
+            background-color: #DDA15E;
             color: #FEFAE0;
+            font-weight: bold;
+            border-radius: 8px;
+            border: 3px solid #606C38;
             transition: transform 0.3s ease-in-out;
         }
         
         .book-info a:hover{
+            color: #DDA15E;
+            background-color: #FEFAE0;
+            border: 3px solid #606C38;
             transform: scale(1.2);
+            font-weight: bolder;
         }
 
 
@@ -516,6 +523,39 @@ body{
 
 .detalhes-livro-text {
     color: #FEFAE0;
+}
+
+.expand-btn{
+    margin-top: 10px;
+    padding: 2px 8px;
+    background-color: #DDA15E;
+    color: #FEFAE0;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 3px solid #606C38;
+    transition: transform 0.3s ease-in-out;
+}
+
+.expand-btn:hover {
+    color: #DDA15E;
+    background-color: #FEFAE0;
+    border: 3px solid #606C38;
+    transform: scale(1.2);
+    font-weight: bolder;
+}
+
+.expand-container{
+    padding: 20px 80px;
+}
+
+.detalhes-livro-text strong{
+    color: #606C38;
+}
+
+@media (max-width: 768px) {
+    .expand-container{
+        padding: 20px 15px;
+    }
 }
 
 /*Estilos da pagina detalhesItem*/
