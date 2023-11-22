@@ -505,6 +505,12 @@ body{
 
 /*Estilos da pagina detalhesItem*/
 
+.detalhesItens-title{
+    text-align: center;
+    margin-top: 50px;
+    color: #DDA15E;
+}
+
 .detalhes-livro-container {
     width: 90%;
     margin: 50px auto;
@@ -582,3 +588,59 @@ body{
 }
 
 /*Estilos da pagina detalhesItem*/
+
+/*Estilos Onde Estamos*/
+
+.video-container{
+    text-align: center;
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px 10px;
+}
+
+.video video{
+    width: 100%;
+    height: autox;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px;
+}
+
+
+.ondeEstamos-container{
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px 10px;
+}
+
+.ondeEstamos-title{
+    color: #DDA15E;
+    margin-bottom: 40px;
+}
+
+.map-container{
+    padding: 30px 10px;
+    background-color: #606C38;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px;
+}
+
+.mapa{
+    margin: 0 auto;
+}
+
+.map-text{
+    margin: 0 auto;
+    text-align: left;
+    color: #FEFAE0;
+}
+
+
+
+@media (max-width: 768px) {
+    .map-text{
+        font-size: 0.9em;
+    }
+}
+
+/*Estilos Onde Estamos*/
