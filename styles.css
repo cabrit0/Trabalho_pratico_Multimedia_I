@@ -599,6 +599,7 @@ body{
 .video video{
     width: 100%;
     height: auto;
+    max-width: 850px;
     border-radius: 10px;
     box-shadow: 5px 8px 10px;
 }
