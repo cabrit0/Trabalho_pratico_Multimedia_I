@@ -593,24 +593,20 @@ body{
 
 .video-container{
     text-align: center;
-    width: 90%;
     margin: 50px auto;
-    padding: 10px 10px;
 }
 
 .video video{
     width: 100%;
-    height: autox;
+    height: auto;
     border-radius: 10px;
     box-shadow: 5px 8px 10px;
 }
-
 
 .ondeEstamos-container{
     text-align: center;
     width: 90%;
     margin: 10px auto;
-    padding: 10px 10px;
 }
 
 .ondeEstamos-title{
