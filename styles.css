@@ -63,6 +63,7 @@ body{
     opacity: .7;
     color: #FEFAE0;
     justify-content: center;
+    box-shadow: 5px 8px 10px;
 }
 
     .hero .hero-title h2{
@@ -84,10 +85,12 @@ body{
     height: 400px;
     margin: 44px auto;
     border-radius: 10px;
+    
 }
 
     .border-class{
         border-radius: 10px;
+        box-shadow: 5px 8px 10px;
     }
 
     .slider-content{
@@ -139,6 +142,7 @@ body{
 .authors-section {
     background-color: #FEFAE0;
     padding: 40px 0;
+    
 }
 
     .authors-section h2 {
@@ -174,6 +178,7 @@ body{
     border-radius: 10px;
     color: #283618;
     text-align: center;
+    box-shadow: 5px 8px 10px #282e24;
 }
 
     .author-info .top-author-name{
@@ -386,6 +391,7 @@ body{
     font-weight: bold;
     border: 2px solid #DDA15E;
     border-radius: 10px;
+    box-shadow: 5px 8px 10px #a2641d;
 }
 
     .sobreMim-container h2{
@@ -434,6 +440,7 @@ body{
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         background-color: #DDA15E;
+        box-shadow: 5px 8px 10px;
     }
 
     .img-card-container{
@@ -522,6 +529,7 @@ body{
     background-color: #DDA15E;
     border-radius: 10px;
     margin: 20px auto;
+    box-shadow: 5px 8px 10px;
 }
 
 .detalhes-livro-img {
