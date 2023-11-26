@@ -1,9 +1,8 @@
-//funcionalidade seccao - top author 
 
 // script para slider automatico de 4 em 4 segundos
 document.addEventListener('DOMContentLoaded', function () {
   
-    var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleIndicators'), {
+    let myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleIndicators'), {
         interval: 4000,  
          wrap: true  
     });
