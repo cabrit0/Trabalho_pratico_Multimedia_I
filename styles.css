@@ -124,7 +124,9 @@ body{
 
             .book-author .author-name{
                 margin: auto 0;
-                font-size: 1.1em;
+                font-size: 1.2em;
+                color: #FEFAE0;
+                font-weight: bold;
             }
         
             .book-author .img-author{
