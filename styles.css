@@ -53,7 +53,7 @@ body{
 
 /*Estilos da pagina index*/
 .hero{
-    height: 180px;
+    height: 185px;
     width: 95%;
     margin: 24px auto;
     background-image: url(images/img3.jpg);
@@ -76,7 +76,7 @@ body{
 
     .hero .hero-text{
         padding-top: 40px;
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 
 
