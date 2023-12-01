@@ -754,3 +754,81 @@ body{
 }
 
 /*Estilos Onde Estamos*/
+
+/*Estilos projetos*/
+
+.projetos-title{
+    color: #DDA15E;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.projects-container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+    .project{
+        background-color: #606C38;
+        margin: 40px auto;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 5px 8px 10px;
+    }
+
+        .project h2,
+        .project .project-date{
+            text-align: center;
+            color: #DDA15E;
+        }
+
+        .project-img-container{
+            height: 100%;
+            text-align: center;
+            max-width: 500px;
+            padding: 0 20px;
+        }
+        
+        .project-image{
+            margin: 20px auto;
+            border-radius: 10px;
+            height: 200px;
+            width: 100%;
+        }
+
+        .project-info{
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        .project .project-description{
+            color: #FEFAE0;
+            margin: 20px auto;
+        }
+
+        .project .projeto-btn{
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 10px;
+            padding: 2px 8px;
+            background-color: #DDA15E;
+            color: #FEFAE0;
+            font-weight: bold;
+            border-radius: 8px;
+            border: 3px solid #FEFAE0;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project .projeto-btn:hover{
+            margin-top: 10px;
+            padding: 2px 8px;
+            background-color: #606C38;
+            color: #FEFAE0;
+            font-weight: bold;
+            border-radius: 8px;
+            border: 3px solid #DDA15E;
+            transform: scale(1.15);
+        }
+
+/*Estilos projetos*/
