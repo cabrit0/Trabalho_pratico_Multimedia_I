@@ -60,7 +60,7 @@ body{
     background-size: cover;
     background-repeat: none;
     border-radius: 10px;
-    opacity: .7;
+    /*opacity: .7;*/
     color: #FEFAE0;
     justify-content: center;
     box-shadow: 5px 8px 10px;
@@ -662,6 +662,41 @@ body{
     box-shadow: 5px 8px 10px;
 }
 
+.redes-sociais {
+    background-color: #DDA15E;
+    color: #FEFAE0;
+    width: 100%;
+    margin: 20px  auto;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px;
+  }
+
+  .redes-sociais h2{
+    font-weight: bold;
+  }
+
+  .redes-sociais p{
+    display: inline;
+  }
+
+  .social-icon {
+    font-size: 24px;
+    margin: 10px;
+    color: #FEFAE0;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .social-icon i {
+    margin-right: 5px;
+  }
+
+  .social-icon:hover {
+    color: #606C38;
+  }
+
 .audio-container{
     width: 100%;
     height: auto;
@@ -799,6 +834,14 @@ body{
 
     .contact-form .contact-inputs{
         width: 100%;
+    }
+
+    .redes-sociais p{
+        display: none;
+    }
+
+    .social-icon{
+        font-size: .9em;
     }
 }
 
