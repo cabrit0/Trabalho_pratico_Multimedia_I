@@ -687,12 +687,17 @@ body{
     color: #FEFAE0;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
-  }
+}
 
-  .social-icon i {
+
+.social-icon i {
     margin-right: 5px;
-  }
-
+    transition: transform 0.4s ease-in-out;
+    }
+    
+    .social-icon i:hover{
+      transform: scale(1.4);
+    }
   .social-icon:hover {
     color: #606C38;
   }
