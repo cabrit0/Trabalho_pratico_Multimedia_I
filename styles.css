@@ -662,7 +662,7 @@ body{
     box-shadow: 5px 8px 10px;
 }
 
-.redes-sociais-ondeEstamos {
+.redes-sociais {
     background-color: #DDA15E;
     color: #FEFAE0;
     width: 100%;
@@ -673,11 +673,11 @@ body{
     box-shadow: 5px 8px 10px;
   }
 
-  .redes-sociais-ondeEstamos h2{
+  .redes-sociais h2{
     font-weight: bold;
   }
 
-  .redes-sociais-ondeEstamos p{
+  .redes-sociais p{
     display: inline;
   }
 
@@ -841,7 +841,7 @@ body{
         width: 100%;
     }
 
-    .redes-sociais-ondeEstamos p{
+    .redes-sociais p{
         display: none;
     }
 
